@@ -18,6 +18,7 @@ public class HomeController {
     public String index(Model model) {
         Director director = new Director();
         director.setName("Stephen Bollock");
+        //director.setGenre("Sci Fi");
         director.setGenre("Sci Fi");
 
         // creat movie
